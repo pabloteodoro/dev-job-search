@@ -22,7 +22,7 @@ db
 
 // routes
 app.get('/', (req, res) => {
-    res.send('Server Okay Baby');
+    res.send('Server OKAY');
 });
 
 
