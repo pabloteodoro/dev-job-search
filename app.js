@@ -3,7 +3,7 @@ const app = express();
 const db = require('./db/connection');
 
 
-const PORT = 8001;
+const PORT = 5001;
 
 app.listen(PORT, function() {
     console.log(`Server is running on http://localhost:${PORT}`);

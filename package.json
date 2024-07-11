@@ -1,0 +1,26 @@
+{
+  "name": "dev-job-searchh",
+  "version": "1.0.0",
+  "description": "website to help developers find a job",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloteodoro/dev-job-searchh.git"
+  },
+  "author": "Pablo Teodoro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pabloteodoro/dev-job-searchh/issues"
+  },
+  "homepage": "https://github.com/pabloteodoro/dev-job-searchh#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.3",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
