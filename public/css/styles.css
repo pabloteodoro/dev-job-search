@@ -18,3 +18,11 @@
     border-bottom: 1px solid #CCC;
 }
 
+.navbar .nav-item a {
+    color: #212529;
+
+}
+
+.nav-item {
+    margin: 0 10px;
+}
