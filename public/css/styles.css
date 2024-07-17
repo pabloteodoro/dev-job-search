@@ -34,9 +34,11 @@
     background-color: #F7F9FC;
     border-bottom: 4px solid #013068;
     margin-bottom: 30px;
-    background-image: url('../img/banner.jpg');
-    background-position: 0 100px;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+    background-position: 0 40px;
     background-size: cover;
     color: #fff;
 }
+
+
 
