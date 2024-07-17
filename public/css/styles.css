@@ -12,3 +12,9 @@
     color: #000; 
 
 }
+
+.navbar {
+    padding: 1rem;
+    border-bottom: 1px solid #CCC;
+}
+
