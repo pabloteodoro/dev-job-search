@@ -4,8 +4,8 @@
   "description": "website to help developers find a job",
   "main": "app.js",
   "scripts": {
-      "start": "node app.js",
-      "dev": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
     "express-handlebars": "^7.1.3",
+    "nodemon": "^3.1.4",
     "sequelize": "^6.37.3",
     "sqlite3": "^5.1.7"
   }
