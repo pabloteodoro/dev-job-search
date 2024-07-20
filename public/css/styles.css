@@ -3,6 +3,7 @@
     font-family: Helvetica, sans-serif;
 }
 
+
 /* nav */
 
 .navbar {
@@ -12,10 +13,13 @@
 
 .navbar .navitem a {
     color: #212529;
+    text-decoration: none;
+    padding: 10px 20px;
+   
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 10px 15px;
+    padding: 1px 15px;
     font-weight: bold;
 
 }
@@ -23,7 +27,7 @@
 .navbar .nav-jobs .btn-primary:hover {
     color: #ffffff;
     background-color: #f03e3e;
-    border: 1px solid transparent;
+    border: 5px solid transparent;
     border-radius: 0;
 }
 
@@ -41,7 +45,30 @@
 }
 
 #main-title {
-    padding: 30px 0;
-    font-size: 3rem;
+    padding: 10px 0;
+    font-size: 5rem;
 
 }
+
+#sub-title {
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+/* form */
+
+#search-form {
+    padding: 30px 100px;
+}
+
+#search-form .col-md-10, #search-form .col-md-2 {
+    padding: 0;
+}
+
+#search-form input, #search-form button {
+    width: 100%;
+    border-radius: 0;
+    height: 50px;
+    font-size: 18px;
+}
+
