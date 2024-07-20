@@ -74,15 +74,26 @@
 
 /* list */
 
+#jobs-container {
+    padding: 0 100px;
+    padding-bottom: 50px;
+}
+
 #job-list .list-group-item {
     margin-bottom: 8px;
     border: 1px solid #CCC;
+    padding: 15px 80px;
 
 }
 
 #job-list .list-group-item p {
     font-size: 14px;
     margin-bottom: 5px;
+}
+
+#job-list .list-group-item.new-job {
+    border: none;
+    background-color: #80b2f5;
 }
 
 
