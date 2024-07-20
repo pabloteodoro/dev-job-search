@@ -83,6 +83,8 @@
     margin-bottom: 8px;
     border: 1px solid #CCC;
     padding: 15px 80px;
+    color: #212529;
+    height: 120px;
 
 }
 
@@ -94,10 +96,22 @@
 #job-list .list-group-item.new-job {
     border: none;
     background-color: #80b2f5;
+    
 }
 
 #job-list-title {
     margin-bottom: 35px;
+}
+
+#joblist .list-group-item-new-job {
+    width: 80px;
+    border: 1px solid #212529;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: -40px;
+    top: calc(50% - 40px);
+
 }
 
 
