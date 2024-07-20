@@ -72,3 +72,13 @@
     font-size: 18px;
 }
 
+/* list */
+
+#job-list .list-group-item {
+    margin-bottom: 8px;
+    border: 1px solid #CCC;
+
+}
+
+
+
