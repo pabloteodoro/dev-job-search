@@ -40,16 +40,19 @@ db
 // routes
 app.get('/', (req, res) => {
 
-    Job.findAll({order: [
-        ['createdAt', 'DESC']
-    ]})
-   .then(jobs => {
-
-    res.render('index', { 
-        jobs 
+    let search = req.query.job;
+    if(!search) {
+        Job.findAll({order: [
+            ['createdAt', 'DESC']
+        ]})
+       .then(jobs => {
+    
+        res.render('index', { 
+            jobs 
+        });
+    
     });
-
-});
+    }
 
 });
 

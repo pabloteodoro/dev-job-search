@@ -3,7 +3,7 @@
        
         <p id="sub-title" class="text-center">Platform that has jobs for those who work with technology</p>
 
-        <form id="search-form" class="form-inline" action="">
+        <form id="search-form" class="form-inline" action="/" method="GET">
             <div class="form-group col-md-10">
                 <input type="text" class="form-control" id="job" name="job" placeholder="Search Job">
             </div>
@@ -20,10 +20,10 @@
                     <ul id="job-list" class="list-group">
                         {{#each jobs}}
                         <li class="list-group-item {{#if dataValues.new_job }}new-job{{/if}}">
-                            <img src="img/free-find-jobs-1956265-1650428.webp" alt="Company">
+                            <img src="layouts/img/free-find-jobs-1956265-1650428.webp" alt="Company">
                             <p>{{dataValues.company}}</p>
                             <h2>{{dataValues.title}}</h2>
-                            <p>{{dataValues.salary}}</p>
+                            <p>U$D{{dataValues.salary}}</p>
                             <span class="new-job-label">New</span>
                             <a class="btn btn-primary">Show Job</a>
                         </li>
