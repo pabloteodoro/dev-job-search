@@ -16,7 +16,11 @@
         <div id="jobs-container" class="container">
             <div class="row">
                 <div class="col-md-12">
+                    {{#if search}}
+                     <h2 id="job-list-title">searching for jobs that contain: {{search}}</h2>
+                    {{else}}
                     <h2 id="job-list-title">See some of our Job opening</h2>
+                    {{/if}}
                     <ul id="job-list" class="list-group">
                         {{#each jobs}}
                         <li class="list-group-item {{#if dataValues.new_job }}new-job{{/if}}">
@@ -25,7 +29,7 @@
                             <h2>{{dataValues.title}}</h2>
                             <p>U$D{{dataValues.salary}}</p>
                             <span class="new-job-label">New</span>
-                            <a class="btn btn-primary">Show Job</a>
+                            <a class="btn btn-primary" href="/jobs/view/{{dataValues.id}}">Show Job</a>
                         </li>
                         {{/each}}
                     </ul>
