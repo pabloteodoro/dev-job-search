@@ -8,6 +8,19 @@ router.get('/test', (req, res) => {
     res.send('Server nice');
 });
 
+// details jobs
+router.get('/view/:id', (req, res) => Job.findOne({
+    where: {id: req.params.id}
+}).then(job => {
+
+    res.render('view', {
+        job
+    });
+    
+}).catch(err => console.log(err)));
+
+
+// form routes
 router.get('/add', (req, res) => {
     res.render('add');
 });
